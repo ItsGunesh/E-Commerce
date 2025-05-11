@@ -61,6 +61,9 @@ body {
   padding: 20px 80px;
   background-color: #e3e6f3;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0px;
+  left: 0px;
 }
 
 #navbar{
@@ -97,4 +100,35 @@ body {
   position: absolute;
   bottom: 18px;
   left: 20px;
+}
+
+#hero{
+  background-image: url("src/img/hero4.png");
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0px 80px;
+  background-size: cover;
+  background-position: top 25% right 0;
+}
+
+#hero h4{
+  padding: 10px;
+}
+
+#hero h1{
+  color: #088178;
+}
+
+#hero button{
+  background-image: url("src/img/button.png");
+  background-color: transparent;
+  color: #088178;
+  padding: 14px 80px 14px 65px;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
 }
