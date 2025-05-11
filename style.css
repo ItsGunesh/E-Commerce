@@ -132,3 +132,53 @@ body {
   cursor: pointer;
   font-weight: 700;
 }
+
+#feature{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.fe{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgba(161, 161, 161, 0.3);
+  border-radius: 5px;
+  padding: 10px;
+  color: #088178;
+}
+
+.fe h6{
+  padding: 5px;
+}
+
+.fe:nth-child(2) h6{
+  background-color: #fddde4;
+}
+
+.fe:nth-child(3) h6{
+  background-color: #cdebbc;
+}
+
+.fe:nth-child(1) h6{
+  background-color: #d1e8f2;
+}
+
+.fe:nth-child(4) h6{
+  background-color: #cdd4f8;
+}
+
+.fe:nth-child(5) h6{
+  background-color: #f6dbf6;
+}
+
+.fe:nth-child(6) h6{
+  background-color: #fff2e5;
+}
+
+.fe:nth-child(n):hover{
+  box-shadow: 10px 10px 54px rgba(128, 126, 161, 0.3);
+}
