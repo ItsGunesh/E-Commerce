@@ -247,6 +247,46 @@ body {
   bottom: 20px;
   right: 10px;
   color: #088178;
+  background-color: #e5f5f3;
   /* width: 40px;
   height: 40px; */
+}
+
+#banner {
+  background-image: url("src/img/banner/b2.jpg");
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#banner p{
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+#banner h4{
+  color: white;
+  font-weight: 600;
+  font-size: 50px;
+}
+
+#banner button{
+  margin: 10px;
+  padding: 15px 8px;
+  color: black;
+  background-color: white;
+  border: none;
+  font-weight: 700;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#banner h4 span{
+  color: rgb(253, 54, 54);
+  font-weight: 800;
 }
