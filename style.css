@@ -290,3 +290,20 @@ body {
   color: rgb(253, 54, 54);
   font-weight: 800;
 }
+
+#sm-banner{
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  min-width: 580px;
+  height: 30vh;
+}
+
+.ban-1{
+  background-image: url("src/img/banner/b17.jpg");
+}
